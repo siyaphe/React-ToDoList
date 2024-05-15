@@ -1,27 +1,10 @@
-import React, {useState} from 'react';
-import './App.css';
+import React from 'react';
+import ToDoList from './components/ToDoList';
 
 function App() {
-  const App = () =>  {
-    // const [todos, setTodos] = useState([])
-    // const [newTodo, setNewTodo] = useState("");
-
-    
-  }
   return (
     <div className="App">
-
-   <h1>Henri Todo List</h1>
-   <input
-        type="text"
-     
-      />
-
-      <button>Add</button>
-
-
-
-
+      <ToDoList />
     </div>
   );
 }
